@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+table, th, td{
+    border: 1px solid black;
+    text-align: center;
+    font-size: large;
+    /* font-weight: bold; */
+    padding: 5px;
+}
+
+th{
+    background-color: #333;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: rgba(255, 255, 255, 0.521);
+}
+
+.ticket{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 1366px) {
+    table{
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    table, th, td{
+        border: 1px solid black;
+        text-align: center;
+        font-size: 1em !important;
+        /* font-weight: bold; */
+        padding: 5px;
+    }
+
+    .ticket{
+        font-weight: bold;
+        font-size: 1.2em !important;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}

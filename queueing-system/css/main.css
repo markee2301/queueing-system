@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient( to bottom, #D1E3FC, #b48484, #BC0000 ) fixed;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    background: rgba(255, 255, 255, 0.562);
+    width: 5%;
+    overflow: hidden;
+    transition: 0.2s linear;
+    box-shadow: 0 20px 35px gray;
+    font-weight: bold;
+    padding-left: 1.5rem;
+}
+
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+    margin: 0.25rem 0 0 -1.3rem;
+}
+
+.logo img{
+    width: 70%;
+    height: 60px;
+}
+
+a{
+    position: relative;
+    color: black;
+    font-size: 1.5em;
+    display: table;
+    width: 300px;
+    padding: 1rem;
+    margin-left: -0.5rem;
+}
+
+.fas{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav-item{
+    position: relative;
+    margin-left: 55px;
+}
+
+a:hover{
+    background: grey;
+}
+
+nav:hover{
+    width: 280px;
+    transition: all 0.5s ease;
+}
+
+.logout{
+    position: absolute;
+    bottom: 0;
+
+}
+
+.refresh{
+    font-size: 1em;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 50px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.644);
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1366px) {
+    .navbar{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        height: 100vh;
+        left: 0;
+        background: rgba(255, 255, 255, 0.562);
+        width: 5%;
+        overflow: hidden;
+        transition: 0.2s linear;
+        box-shadow: 0 20px 35px gray;
+        font-weight: bold;
+        padding-left: 1.5rem;
+    }
+
+    .logo{
+        text-align: center;
+        display: flex;
+        transition: all 0.5s ease;
+        margin: 0.25rem 0 0 -1.3rem;
+    }
+    
+    .logo img{
+        width: 60% !important;
+        height: 50px !important;
+        margin-left: -0.8rem !important;
+    }
+    
+    a{
+        position: relative;
+        color: black;
+        font-size: 1.2em !important;
+        display: table;
+        width: 300px;
+        padding: 0.8rem !important;
+        margin-left: -1.1rem !important;
+    }
+    
+    .fas{
+        position: relative;
+        width: 70px;
+        height: 40px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .nav-item{
+        position: relative;
+        margin-left: 35px !important;
+    }
+
+    .refresh{
+        font-size: 0.8em;
+        text-align: center;
+        font-weight: bold;
+        padding: 10px 50px;
+        color: white;
+        background-color: rgba(0, 0, 255, 0.644);
+        border-radius: 20px;
+    }
+
+    nav:hover{
+        width: 180px !important;
+        transition: all 0.5s ease;
+    }
+}
