@@ -1,7 +1,7 @@
 # queueing-system
 A queueing system similar to fastfood queueing systems but with added feature to prioritize PWD and returning customers.
 
-This project is DISCONTINUED, that's why it is not responsive to mobile devices. PLEASE USE A COMPUTER.
+This is made for PC only, that's why it is not responsive on mobile devices.
 
 URL:
 https://test-earist-queueing-system.000webhostapp.com/login.php
