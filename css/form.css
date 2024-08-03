@@ -1,0 +1,143 @@
+.form .add_form {
+    display: block;
+    text-align: center;
+}
+
+.add_form form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.add_form input[type="submit"] {
+    font-size: 1em;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 50px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 1rem;
+}
+
+.add_form select, .add_form option {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    /* text-align: center; */
+}
+
+.add_form label{
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.add_form select, .add_form option, .add_form input:hover{
+    cursor: pointer;
+}
+
+.add_form input:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+
+/* UPDATE FORMS */
+
+#update_form form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#update_form button[type="submit"] {
+    font-size: 1em;
+    text-align: center;
+    padding: 5px 15px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+}
+
+#update_form select, #update_form option {
+    font-size: 1em;
+    padding: 5px;
+    border-radius: 50px;
+    width: 155px;
+    text-align: center;
+}
+
+#update_form label{
+    font-weight: bold;
+    font-size: larger;
+}
+
+#update_form select, #update_form option, #update_form input:hover{
+    cursor: pointer;
+}
+
+#update_form button:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1366px) {
+    .add_form input[type="submit"] {
+        font-size: 0.8em !important;
+        text-align: center;
+        font-weight: bold;
+        padding: 10px 50px;
+        color: white;
+        background-color: black;
+        border-radius: 20px;
+        margin-left: 1rem;
+    }
+    
+    .add_form select, .add_form option {
+        font-size: 0.9em !important;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 10px;
+        /* text-align: center; */
+    }
+    
+    .add_form label{
+        font-weight: bold;
+        font-size: 0.9em !important;
+    }
+
+    /* UPDATE FORMS */
+    
+    #update_form button[type="submit"] {
+        font-size: 0.8em !important;
+        text-align: center;
+        padding: 5px 10px !important;
+        color: white;
+        background-color: black;
+        border-radius: 50px;
+    }
+    
+    #update_form select, #update_form option {
+        font-size: 0.9em !important;
+        padding: 5px 5px;
+        border-radius: 50px;
+        width: 130px !important;
+        text-align: center;
+    }
+    
+    #update_form label{
+        font-weight: bold;
+        font-size: 0.8em !important;
+    }
+
+
+}
