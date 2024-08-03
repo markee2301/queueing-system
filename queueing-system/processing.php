@@ -44,7 +44,7 @@ $row = $queue -> fetch_assoc();
                 <img src="img/logo.png" alt="logo"></a>
             </li>
 
-            <li><a href="dashboard.php">
+            <li><a href="index.php">
                 <i class="fa-solid fa-house"></i>
                 <span class="nav-item">Dashboard</span>
             </a></li>

@@ -12,7 +12,7 @@ $priority = $_POST['priority'];
 $sql = "UPDATE queue_list SET priority='$priority' WHERE (priority = '2' OR priority = '4') AND id='$id'";
 
 if ($con->query($sql) === TRUE) {
-    echo header("Location: dashboard.php");
+    echo header("Location: index.php");
 } else {
     echo "Error updating priority: " . $con->error;
 }

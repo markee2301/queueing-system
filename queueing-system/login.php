@@ -23,7 +23,7 @@ if(isset($_POST['login'])){
         $_SESSION['AdminLogin'] = $row['username'];
         $_SESSION['Access'] = $row['role'];
 
-        echo header("Location: dashboard.php");
+        echo header("Location: index.php");
     }else{
         echo "<script>alert('INVALID CREDENTIALS!');</script>";
     }

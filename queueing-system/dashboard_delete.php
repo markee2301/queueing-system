@@ -11,7 +11,7 @@ $id = $_POST['id'];
 $query = "DELETE FROM queue_list WHERE id=$id";
 mysqli_query($con, $query);
 
-echo header('Location: dashboard.php');
+echo header('Location: index.php');
 
 // CLOSE THE DATABASE CONNECTION
 mysqli_close($con);

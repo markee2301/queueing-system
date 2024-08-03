@@ -24,7 +24,7 @@ if(isset($_POST['add'])){
     $sql = "INSERT INTO `queue_list`(`priority`, `status`) VALUES ('$priority', '$status')";
     $con->query($sql) or die ($con->error);
 
-    echo header("Location: dashboard.php");
+    echo header("Location: index.php");
 
     // Retrieve the ID of the newly added data
 $newID = $con->insert_id;

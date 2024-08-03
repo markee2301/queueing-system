@@ -12,7 +12,7 @@ $status = $_POST['status'];
 $sql = "UPDATE queue_list SET status='$status' WHERE id='$id'";
 
 if ($con->query($sql) === TRUE) {
-    echo header("Location: dashboard.php");
+    echo header("Location: index.php");
 } else {
     echo "Error updating status: " . $con->error;
 }
